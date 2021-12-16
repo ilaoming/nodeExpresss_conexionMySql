@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejemplo</title>
+</head>
+<body>
+  <h1>Blog</h1>
+  <h2>Productos</h2>
+  <ul>
+    <% for(let i=0; i<prod_nom.length; i++) { %>
+    <li><%=prod_nom[i].prod_nom%></li>
+    <% } %>
+  </ul>
+
+  <ul>
+    <% for(let i=0; i<prod_id.length; i++) { %>
+    <li><%=prod_id[i].prod_id%></li>
+    <% } %>
+  </ul>
+</body>
+</html>
